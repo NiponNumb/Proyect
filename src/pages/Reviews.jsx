@@ -16,9 +16,7 @@ const Review = () => {
                         </figure>
                         <h3>{review.movieName}</h3>
                         <p>{review.text}</p>
-                        <a href={review.url} target="_blank" rel="noopener noreferrer">
-                            {review.url}
-                        </a>
+                        
                     </div>
                 ))}
             </div>
